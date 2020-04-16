@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mongo-server:
+    image: 'mongo'
+  redis-server:
+    image: 'redis'
+  gym-app:
+    restart: on-failure
+    build: .
+    ports:
+      - "3333:3333"

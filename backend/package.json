@@ -1,0 +1,29 @@
+{
+  "name": "gym-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon src/server.js",
+    "start-prod": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralvust/gym-app.git"
+  },
+  "author": "Rafaela e Mauricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralvust/gym-app/issues"
+  },
+  "homepage": "https://github.com/ralvust/gym-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "redis": "^3.0.2",
+    "uuid": "^7.0.3"
+  }
+}
